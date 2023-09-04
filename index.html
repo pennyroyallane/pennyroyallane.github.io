@@ -23,6 +23,18 @@
       margin:0; 
       display:block;
     }
+    .text-container {
+      padding: 0.5em;
+    }
+    @media (min-width: 800px) {
+      .text-container {
+        padding: 0.5em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
     .gfg {
       position: relative;
     }
@@ -34,14 +46,6 @@
       padding: 0.5em;
     }
     /*This CSS code is defining the styles for a container that holds text*/
-    .text-container {
-      position: absolute;
-      color: rgb(255, 255, 255);
-      left: 18rem;
-      top: 2rem;
-      background-color: rgb(41, 41, 41, 0.8);
-      padding: 0 1rem;
-    }
   </style>
 </head>
 <body class="body">
@@ -50,12 +54,12 @@
   <div class="gfg">
     <img src="wedge-fitness.webp" alt="Surfer riding a wave" class="responsive">
     <!-- div class="text-container" -->
-    <div>
+    <div class="text">
       <p>BOUTIQUE CALIFORNIA PROPERTY MANAGEMENT</p>
       <p>We are a boutique property management outfit taking care of premium single-family homes in California, USA since 2009.</p>
       <p>Our dear Tenants – please contact us at the phone and/or email addresses provided in your lease agreement.</p>
       <p>We are typically available 7 days per week. For urgent matters, please call us – otherwise we best respond to SMS and emails.</p>
-      <p>2023 ©❤️ Pennyroyal Lane Statutory Trust</p>
+      <p>2023 © ❤️ Pennyroyal Lane Statutory Trust</p>
     </div>
   </div>
 </body>
